@@ -1,0 +1,16 @@
+E:\Projects\DemoProjects\VFDS_old\VFDS.BLL\bin\Debug\VFDS.BLL.dll.config
+E:\Projects\DemoProjects\VFDS_old\VFDS.BLL\bin\Debug\VFDS.BLL.dll
+E:\Projects\DemoProjects\VFDS_old\VFDS.BLL\bin\Debug\VFDS.BLL.pdb
+E:\Projects\DemoProjects\VFDS_old\VFDS.BLL\bin\Debug\EntityFramework.dll
+E:\Projects\DemoProjects\VFDS_old\VFDS.BLL\bin\Debug\VFDS.Common.dll
+E:\Projects\DemoProjects\VFDS_old\VFDS.BLL\bin\Debug\VFDS.DAL.dll
+E:\Projects\DemoProjects\VFDS_old\VFDS.BLL\bin\Debug\Newtonsoft.Json.dll
+E:\Projects\DemoProjects\VFDS_old\VFDS.BLL\bin\Debug\VFDS.Common.pdb
+E:\Projects\DemoProjects\VFDS_old\VFDS.BLL\bin\Debug\VFDS.DAL.pdb
+E:\Projects\DemoProjects\VFDS_old\VFDS.BLL\bin\Debug\VFDS.DAL.dll.config
+E:\Projects\DemoProjects\VFDS_old\VFDS.BLL\bin\Debug\EntityFramework.xml
+E:\Projects\DemoProjects\VFDS_old\VFDS.BLL\bin\Debug\Newtonsoft.Json.xml
+E:\Projects\DemoProjects\VFDS_old\VFDS.BLL\obj\Debug\VFDS.BLL.csprojResolveAssemblyReference.cache
+E:\Projects\DemoProjects\VFDS_old\VFDS.BLL\obj\Debug\VFDS.BLL.csproj.CoreCompileInputs.cache
+E:\Projects\DemoProjects\VFDS_old\VFDS.BLL\obj\Debug\VFDS.BLL.dll
+E:\Projects\DemoProjects\VFDS_old\VFDS.BLL\obj\Debug\VFDS.BLL.pdb

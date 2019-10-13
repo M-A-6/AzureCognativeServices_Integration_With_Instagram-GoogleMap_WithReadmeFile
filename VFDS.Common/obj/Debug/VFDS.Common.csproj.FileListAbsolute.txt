@@ -1,0 +1,8 @@
+E:\Projects\DemoProjects\VFDS_old\VFDS.Common\bin\Debug\VFDS.Common.dll
+E:\Projects\DemoProjects\VFDS_old\VFDS.Common\bin\Debug\VFDS.Common.pdb
+E:\Projects\DemoProjects\VFDS_old\VFDS.Common\bin\Debug\Newtonsoft.Json.dll
+E:\Projects\DemoProjects\VFDS_old\VFDS.Common\bin\Debug\Newtonsoft.Json.xml
+E:\Projects\DemoProjects\VFDS_old\VFDS.Common\obj\Debug\VFDS.Common.csproj.CoreCompileInputs.cache
+E:\Projects\DemoProjects\VFDS_old\VFDS.Common\obj\Debug\VFDS.Common.dll
+E:\Projects\DemoProjects\VFDS_old\VFDS.Common\obj\Debug\VFDS.Common.pdb
+E:\Projects\DemoProjects\VFDS_old\VFDS.Common\obj\Debug\VFDS.Common.csprojResolveAssemblyReference.cache

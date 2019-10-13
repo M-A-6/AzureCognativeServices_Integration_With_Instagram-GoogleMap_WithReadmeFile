@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VFDSModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Post">
+    <Key>
+      <PropertyRef Name="Post_Serial" />
+    </Key>
+    <Property Name="Post_Serial" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Post_ID" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Post_Date" Type="DateTime" Precision="3" />
+    <Property Name="Post_Caption" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="Location_Longitude" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="Location_Latitude" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="Location_Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Image_Thumbnail_Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="Image_Standard_Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="Image_LowResolution_Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="User_ID" />
+    </Key>
+    <Property Name="User_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="User_First_Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="User_Last_Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="User_Email" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="User_Password" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="User_Active" Type="Boolean" />
+  </EntityType>
+  <EntityContainer Name="VFDSEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Posts" EntityType="Self.Post" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+  </EntityContainer>
+</Schema>

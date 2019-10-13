@@ -1,0 +1,9 @@
+E:\Projects\DemoProjects\VFDS_old\VFDS.DAL\bin\Debug\VFDS.DAL.dll.config
+E:\Projects\DemoProjects\VFDS_old\VFDS.DAL\bin\Debug\VFDS.DAL.dll
+E:\Projects\DemoProjects\VFDS_old\VFDS.DAL\bin\Debug\VFDS.DAL.pdb
+E:\Projects\DemoProjects\VFDS_old\VFDS.DAL\bin\Debug\EntityFramework.dll
+E:\Projects\DemoProjects\VFDS_old\VFDS.DAL\bin\Debug\EntityFramework.xml
+E:\Projects\DemoProjects\VFDS_old\VFDS.DAL\obj\Debug\VFDS.DAL.csproj.CoreCompileInputs.cache
+E:\Projects\DemoProjects\VFDS_old\VFDS.DAL\obj\Debug\VFDS.DAL.dll
+E:\Projects\DemoProjects\VFDS_old\VFDS.DAL\obj\Debug\VFDS.DAL.pdb
+E:\Projects\DemoProjects\VFDS_old\VFDS.DAL\obj\Debug\VFDS.DAL.csprojResolveAssemblyReference.cache

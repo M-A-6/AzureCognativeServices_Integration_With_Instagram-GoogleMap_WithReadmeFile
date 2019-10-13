@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VFDSModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="MetaData">
+    <Key>
+      <PropertyRef Name="MetaData_ID" />
+    </Key>
+    <Property Name="MetaData_ID" Type="int" Nullable="false" />
+    <Property Name="Post_ID" Type="nvarchar" MaxLength="100" />
+    <Property Name="Face_Age" Type="float" />
+    <Property Name="Face_Gender" Type="nvarchar" MaxLength="50" />
+    <Property Name="Face_IsGlasses" Type="bit" />
+    <Property Name="Face_ID" Type="nvarchar" MaxLength="100" />
+    <Property Name="Face_Rectangle" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Posts">
+    <Key>
+      <PropertyRef Name="Post_Serial" />
+    </Key>
+    <Property Name="Post_Serial" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Post_ID" Type="nvarchar" MaxLength="100" />
+    <Property Name="Post_Date" Type="datetime" />
+    <Property Name="Post_Caption" Type="nvarchar" MaxLength="1000" />
+    <Property Name="Location_Longitude" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Location_Latitude" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Location_Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="Image_Thumbnail_Url" Type="nvarchar" MaxLength="1000" />
+    <Property Name="Image_Standard_Url" Type="nvarchar" MaxLength="1000" />
+    <Property Name="Image_LowResolution_Url" Type="nvarchar" MaxLength="1000" />
+    <Property Name="Post_Extenion" Type="nvarchar" MaxLength="10" />
+    <Property Name="Post_FileName" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="User_ID" />
+    </Key>
+    <Property Name="User_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="User_First_Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="User_Last_Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="User_Email" Type="nvarchar" MaxLength="100" />
+    <Property Name="User_Password" Type="nvarchar" MaxLength="500" />
+    <Property Name="User_Active" Type="bit" />
+  </EntityType>
+  <Function Name="spGetPosts" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="DisplayLength" Type="int" Mode="In" />
+    <Parameter Name="DisplayStart" Type="int" Mode="In" />
+    <Parameter Name="SortCol" Type="int" Mode="In" />
+    <Parameter Name="SortDir" Type="nvarchar" Mode="In" />
+    <Parameter Name="Search" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="spUserNameExists" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserName" Type="nvarchar" Mode="In" />
+  </Function>
+  <EntityContainer Name="VFDSModelStoreContainer">
+    <EntitySet Name="MetaData" EntityType="Self.MetaData" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Posts" EntityType="Self.Posts" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

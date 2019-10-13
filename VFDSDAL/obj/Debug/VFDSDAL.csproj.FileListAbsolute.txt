@@ -1,0 +1,10 @@
+E:\Projects\DemoProjects\VFDS_old\VFDSDAL\bin\Debug\VFDSDAL.dll.config
+E:\Projects\DemoProjects\VFDS_old\VFDSDAL\bin\Debug\VFDSDAL.dll
+E:\Projects\DemoProjects\VFDS_old\VFDSDAL\bin\Debug\VFDSDAL.pdb
+E:\Projects\DemoProjects\VFDS_old\VFDSDAL\bin\Debug\EntityFramework.dll
+E:\Projects\DemoProjects\VFDS_old\VFDSDAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\Projects\DemoProjects\VFDS_old\VFDSDAL\bin\Debug\EntityFramework.xml
+E:\Projects\DemoProjects\VFDS_old\VFDSDAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\Projects\DemoProjects\VFDS_old\VFDSDAL\obj\Debug\VFDSDAL.csproj.CoreCompileInputs.cache
+E:\Projects\DemoProjects\VFDS_old\VFDSDAL\obj\Debug\VFDSDAL.dll
+E:\Projects\DemoProjects\VFDS_old\VFDSDAL\obj\Debug\VFDSDAL.pdb
